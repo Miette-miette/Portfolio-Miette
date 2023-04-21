@@ -1,0 +1,71 @@
+body {
+  background-image: url('../media/background/background-miette.png');
+  background-repeat: repeat;
+  margin-block: 0;
+  background-size: contain;
+  background-color: #93b7d5;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: xxx-large;
+  margin: 6px;
+}
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+section {
+  background-image: url(../media/background/background_petitcarnetgriff.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  height: 800px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  grid-column-start: 2;
+  margin-left: 170px;
+  margin-top: 40px;
+}
+
+.gif{
+  width: 40%;
+  margin: 130px;
+}
+
+#voir_le_site {
+  background-image: url(../media/background/Boutonkraft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 30%;
+  background-color: transparent;
+  border-color: transparent;
+  width: 40%;
+  cursor: pointer;
+  margin-left: 198px;
+  margin-top: -120px;
+}
+#voir_le_site:hover {
+  transform: scale3d(1.1,1.1,1.1);
+  transition-duration: 1s; 
+}

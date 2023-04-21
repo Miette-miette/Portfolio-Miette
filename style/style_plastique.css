@@ -1,0 +1,44 @@
+body {
+  background-image: url('../media/background/background-miette.png');
+  background-repeat: repeat;
+  margin-block: 0;
+  background-size: contain;
+  background-color: #93b7d5;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+/* SECTION */
+.plastique{
+  background-image: url('../media/background/background-papier-long1.png');
+    background-position: center;
+    background-size: contain;
+    min-height: 1115px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 553px;
+}
+
+  
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: xx-large;
+  font-size: 50px;
+}

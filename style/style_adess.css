@@ -1,0 +1,100 @@
+body {
+    background-image: url('../media/background/background-miette.png');
+    background-repeat: repeat;
+    margin-block: 0;
+    background-size: contain;
+    background-color: #93b7d5;
+    margin: 0;
+  }
+
+
+/*SECTION ADESS DEBUT*/
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-family: 'Patrick Hand', cursive;
+  }
+
+figure{
+    margin-left: 0px;
+    margin-top: 60px;
+}
+.adess2:hover{
+    transform: scale3d(2.5,2.5,2.5);
+    transition-duration: 0.2s;
+}
+.adess3:hover{
+    transform: scale3d(2.5,2.5,2.5);
+    transition-duration: 0.2s;
+}
+.adess4:hover{
+    transform: scale3d(2.5,2.5,2.5);
+    transition-duration: 0.2s;
+}
+.adess5:hover{
+    transform: scale3d(2.5,2.5,2.5);
+    transition-duration: 0.2s;
+}
+.adess7:hover{
+    transform: scale3d(2.5,2.5,2.5);
+    transition-duration: 0.2s;
+}
+.adess8:hover{
+    transform: scale3d(2.5,2.5,2.5);
+    transition-duration: 0.2s;
+}
+.adess {
+    background-image: url(../media/background/background-carnet.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    width: 1194px;
+    height: 1000px;
+    margin-left: 300px;
+}
+.adessimg>div {
+    display: grid;
+    grid-template-columns: 200px 20px 200px;
+    grid-template-rows: 200px 20px 200px 20px 200px;
+    margin-left: 630px;
+    margin-top: -680px;
+}
+.adesstext {
+    display: flex;
+    flex-direction: column;
+}
+.adesstext {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 768px);
+    margin-left: 115px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.adess2{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.adess3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.adess4{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+.adess5{
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+.adess7{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.adess8{
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+/*SECTION ADESS FIN*/

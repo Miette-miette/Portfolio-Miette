@@ -1,0 +1,82 @@
+body {
+    background-image: url('../media/background/background-miette.png');
+    background-repeat: repeat;
+    margin-block: 0;
+    background-size: contain;
+    background-color: #93b7d5;
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: xxx-large;
+  }
+  
+  h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+  }
+
+/* SECTION KIT EVASION kit DEBUT */
+.gallery {
+    position: relative;
+    min-height: 958px;
+    margin-top: 34px;
+}
+.gallery input{
+    display: none;
+}
+input[type="radio"] + label + img{
+    display: none;
+}
+input[type="radio"]:checked + label + img{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+input[type="radio"]:checked + label{
+    border: 0px solid transparent; 
+}
+input[type="radio"]+ label{
+    cursor: pointer;
+}
+
+.gallery>div:first-of-type {
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 540px;
+    background-color: rgb(153 102 77);
+    z-index: 0;
+    top: 100px;
+}
+.kit {
+    background-image: url(../media/background/background_carnet2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+}
+.kit>p {
+    margin-top: 30px;
+    width: 824px;
+}
+.kit>h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    margin: 1px;
+    padding-top:220px;
+}
+/*SECTION KIT EVASION FIN*/

@@ -1,0 +1,208 @@
+body {
+  background-image: url('../media/background/background-miette.png');
+  background-repeat: repeat;
+  margin-block: 0;
+  background-size: contain;
+  background-color: #93b7d5;
+  margin: 0;
+}
+
+
+/* Texte */
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: xxx-large;
+}
+
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.univers{
+  display: flex;
+  color: antiquewhite;
+}
+
+aside.texteMiette {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 140px;
+  justify-content: center;
+}
+figure {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Patrick Hand', cursive;
+  margin: 0;
+}
+
+/* EXPLOSION IMAGE*/
+
+.explosion {
+  display: grid;
+  grid-template-rows: 20% 20% 20%;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+}
+
+#explo1 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  width: 100%;
+}
+
+img#explo3 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  width: 100%;
+  
+}
+
+img#explo2 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  width: 100%;
+  
+}
+
+img#explo4 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  width: 120%;
+  
+}
+
+img#explo5 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  width: 140%;
+  
+}
+/* EXPLOSION ANIMATION */
+
+#explo1:hover{
+  transform: scale3d(1.5,1.5,1.5);
+  transition-duration: 1.5s; 
+}
+#explo1{
+  transition-duration: 3s;
+}
+#explo2:hover{
+  transform: scale3d(1.5,1.5,1.5);
+  transition-duration: 1.5s; 
+}
+#explo2{
+  transition-duration: 3s;
+}
+
+#explo3:hover{
+  transform: scale3d(1.5,1.5,1.5);
+  transition-duration: 1.5s; 
+}
+#explo3{
+  transition-duration: 3s;
+}
+#explo4:hover{
+  transform: scale3d(1.5,1.5,1.5);
+  transition-duration: 1.5s; 
+}
+#explo4{
+  transition-duration: 3s;
+}
+#explo5:hover{
+  transform: scale3d(1.5,1.5,1.5);
+  transition-duration: 1.5s; 
+}
+#explo5{
+  transition-duration: 3s;
+}
+
+
+
+
+/* PRESENTATION */
+
+#presentation{
+  background-image: url(../media/background/background-papier-long1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 1115px;
+  color: rgb(4, 0, 36);
+}
+
+.resume{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 170px;
+}
+
+.formation{
+  grid-row-start: 2;
+}
+#formationtitre{
+  margin-left:200px
+}
+
+#barre-formation {
+  width: 80%;
+  margin-left: 150px;
+ 
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  width: 280px;
+  margin: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.portrait{
+  grid-column-start: 2;
+}
+
+.quisuisje {
+  margin: 0px 100px 0px 200px;
+}
+
+
+/*SKILLS*/
+
+.skills{
+  background-image: url('../media/background/background\ bloc\ note.png');
+background-repeat: no-repeat;
+margin-block: 0;
+background-size: contain;
+background-color: #93b7d5;
+background-position: center;
+}
+
+.software {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 70px 25px 135px 280px;
+  align-items: flex-start;
+}
+
+#competence{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
