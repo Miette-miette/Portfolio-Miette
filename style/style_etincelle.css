@@ -29,16 +29,21 @@ h3{
 
 /* ARTICLE */
 
-section{
+section {
   background-image: url(../media/background/background-large.png);
   background-repeat: no-repeat;
-  background-size: contain; 
+  background-size: contain;
   background-position: center;
 }
+
 .presentation {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  width: 1300px;
+  margin-left: 300px;
+  padding-top: 80px;
 }
+
 .textpresentation{
   grid-column-start: 2;
 }
@@ -46,21 +51,95 @@ figure {
   grid-column-start: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 40% 60%;
   width: auto;
 }
-#logotypojaune{
+
+#logotypojaune {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 200%;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+#logotypojaune:hover{
+  animation: etincelle 2s ease 0s normal forwards;
+}
+
+#milkyway {
   grid-column-start: 1;
   grid-row-start: 2;
-  width: 20%;
+  width: 120%;
 }
-#milkyway {
-  grid-column-start: 2;
-  grid-row-start: 1;
-  width: 40%;
+#milkyway:hover{
+  animation: etincelle 2s ease 0s normal forwards;
 }
+
 #tele {
-  grid-column-start: 3;
+  grid-column-start: 2;
   grid-row-start: 2;
-  width: 40%;
+  width: 150%;
+  margin-left: 55px;
+}
+#tele:hover{
+  animation: etincelle 2s ease 0s normal forwards;
+}
+
+#voir_le_projet:hover{
+  transform: scale3d(1.1,1.1,1.1);
+  transition-duration: 2s;
+}
+
+#voir_le_projet {
+  background-image: url(../media/etincelle/bouton-projet-etincelle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 30%;
+}
+@keyframes etincelle {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+
+
+.image {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 1300px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+#mockup1 {
+  grid-column-start: 1;
+  width: 80%;
+}
+#mockup2{
+  grid-column-start: 2;
+  width: 60%;
 }
