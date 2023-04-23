@@ -23,10 +23,16 @@ h3{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
 }
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3c6db5;
+  font-size: xx-large;
+  font-style: oblique;
+}
 
 .univers{
   display: flex;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 
 aside.texteMiette {
@@ -194,23 +200,22 @@ img#explo5 {
   padding-top: 170px;
 }
 
-.formation{
-  grid-row-start: 2;
-}
-#formationtitre{
-  margin-left:200px
+#formationtitre {
+  padding-left: 260px;
+  margin: auto;
 }
 
 #barre-formation {
-  width: 80%;
-  margin-left: 150px;
- 
+  width: 70%;
+  margin-left: 259px;
+  padding-top: -27px;
 }
 
 ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: -81px;
 }
 
 li {
@@ -220,24 +225,64 @@ li {
 
 }
 .portrait{
-  grid-column-start: 2;
+  justify-self: center;
   width: 80%;
 }
 
 .quisuisje {
-  margin: 0px 100px 0px 200px;
+  padding-left: 260px;
+}
+
+.logocontact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100PX;
+}
+
+#cv{
+  background-image: url(../media/iconesnav/logo-cv.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 40px;
+  margin: 14px;
+
+
+}
+#cv:hover{
+  transform: scale3d(1.1,1.1,1.1);
+  transition-duration: 2s;
+  
+}
+
+#linkedin{
+  background-image: url(../media/iconesnav/logo-linkedin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 40px;
+  margin: 14px;
+
+}
+#linkedin:hover{
+  transform: scale3d(1.1,1.1,1.1);
+  transition-duration: 2s;
+  
 }
 
 
 /*SKILLS*/
 
-.skills{
+.skills {
   background-image: url('../media/background/background\ bloc\ note.png');
-background-repeat: no-repeat;
-margin-block: 0;
-background-size: contain;
-background-color: #93b7d5;
-background-position: center;
+  background-repeat: no-repeat;
+  margin-block: 0;
+  background-size: contain;
+  background-color: #93b7d5;
+  background-position: center;
+  margin: 60px;
 }
 
 .software {
