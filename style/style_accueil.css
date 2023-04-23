@@ -221,6 +221,7 @@ li {
 }
 .portrait{
   grid-column-start: 2;
+  width: 80%;
 }
 
 .quisuisje {
@@ -243,13 +244,115 @@ background-position: center;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 70px 25px 135px 280px;
+  margin: 70px 25px 135px 210px;
   align-items: flex-start;
 }
-
-#competence{
+.passion-conteneur {
+  width: 80%;
+  margin-top: 60px;
+}
+#competence {
   display: grid;
+  margin-top: 70px;
   grid-template-columns: 1fr 1fr;
 }
 
+
+.passion {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#p1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: center;
+  width: 50%;
+  margin-top: 66px;
+  animation: float1 6s ease-in-out infinite;
+}
+
+#p2{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  justify-self: center;
+  width: 50%;
+  animation: float2 6s ease-in-out infinite;
+}
+#p3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  width: 50%;
+  margin-top: 90px;
+  animation: float1 6s ease-in-out infinite;
+}
+#p4 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  width: 50%;
+  animation: float2 6s ease-in-out infinite;
+}
+#p5 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  justify-self: center;
+  width: 50%;
+  animation: float2 6s ease-in-out infinite;
+}
+#p6 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  justify-self: center;
+  width: 50%;
+  margin-top: -60px;
+  animation: float1 6s ease-in-out infinite;
+}
+#p7 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  justify-self: center;
+  width: 50%;
+  margin-top: 50px;
+  animation: float2 6s ease-in-out infinite;
+}
+#p8 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  width: 50%;
+  margin-left: 82px;
+  animation: float1 6s ease-in-out infinite;
+}
+#p9 {
+  grid-column: 1/ span3;
+  grid-row: 1/ span 3;
+  justify-self: center;
+  margin-top: 50px;
+  margin-bottom: 140px;
+  width: 50%;
+  margin-left: -90px;
+}
+
+@keyframes float1 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes float2 {
+	0% {
+		transform: translatey(-20px);
+	}
+	50% {
+		transform: translatey(0px);
+	}
+	100% {
+		transform: translatey(-20px);
+	}
+}
 
