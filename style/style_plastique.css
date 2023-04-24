@@ -12,6 +12,9 @@ header {
   justify-content: space-between;
   padding: 20px;
 }
+footer{
+  color: rgb(255, 255, 255);
+}
 /* SECTION */
 .plastique{
   background-image: url('../media/background/background-papier-long1.png');

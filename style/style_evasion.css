@@ -12,6 +12,9 @@ body {
     justify-content: space-between;
     padding: 20px;
   }
+  footer{
+    color: rgb(255, 255, 255);
+  }
 
   p{
     font-family: 'Source Sans Pro', sans-serif;
