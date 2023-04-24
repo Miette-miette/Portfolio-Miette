@@ -42,9 +42,9 @@ section {
 .presentation {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 75%;
+  width: 70%;
   margin-left: 10%;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 .textpresentation{
@@ -61,10 +61,11 @@ figure {
 #logotypojaune {
   grid-column-start: 1;
   grid-row-start: 1;
-  width: 200%;
-  margin-left: 100px;
+  width: 160%;
+  margin-left: 220px;
   padding-top: 40px;
 }
+
 #logotypojaune:hover{
   animation: etincelle 2s ease 0s normal forwards;
 }
@@ -72,7 +73,8 @@ figure {
 #milkyway {
   grid-column-start: 1;
   grid-row-start: 2;
-  width: 120%;
+  width: 100%;
+  margin-left: 120px;
 }
 #milkyway:hover{
   animation: etincelle 2s ease 0s normal forwards;
@@ -81,9 +83,10 @@ figure {
 #tele {
   grid-column-start: 2;
   grid-row-start: 2;
-  width: 150%;
-  margin-left: 55px;
+  width: 130%;
+  margin-left: 150px;
 }
+
 #tele:hover{
   animation: etincelle 2s ease 0s normal forwards;
 }
@@ -130,14 +133,14 @@ figure {
 .mockup {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
+  margin-left: 15%;
   padding-bottom: 80px;
   margin-top: 50px;
 }
 #apercu {
   width: 20%;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 #mockup1 {
