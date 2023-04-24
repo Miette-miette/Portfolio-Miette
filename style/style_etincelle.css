@@ -30,7 +30,7 @@ h3{
 /* ARTICLE */
 
 section {
-  background-image: url(../media/background/background-large.png);
+  background-image: url(../media/background/background-large2.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -39,8 +39,8 @@ section {
 .presentation {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 1300px;
-  margin-left: 300px;
+  width: 75%;
+  margin-left: 10%;
   padding-top: 80px;
 }
 
@@ -124,25 +124,27 @@ figure {
 		transform: translateX(-6px) rotate(1.2deg);
 	}
 }
-
-
-
-.image {
+.mockup {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 1300px;
-  margin-left: 300px;
-  margin-top: 100px;
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 80px;
+  margin-top: 50px;
 }
-#apercu{
-  width: 50%;
+#apercu {
+  width: 20%;
+  margin-left: 15%;
 }
 
 #mockup1 {
   grid-column-start: 1;
   width: 80%;
+  justify-self: center;
 }
-#mockup2{
+
+#mockup2 {
   grid-column-start: 2;
   width: 60%;
+  justify-self: center;
 }
