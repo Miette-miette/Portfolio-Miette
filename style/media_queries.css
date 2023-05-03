@@ -15,7 +15,7 @@ body {
     display: flex;
     color: rgb(255, 255, 255);
     flex-direction: column;
-    width: 140%;
+    width: 100%;
     margin-left: 70px;
     margin-bottom: 100px;
 }
@@ -39,7 +39,7 @@ aside.texteMiette {
     background-position: center;
     /* min-height: 1115px; */
     color: rgb(4, 0, 36);
-    width: 150%;
+    width: 100%;
     padding: 15%;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ ul {
     display: flex;
     margin-top: 70px;
     flex-direction: column;
-    width: 150%;
+    width: 100%;
     padding: 10%;
 }
 .passion-conteneur {
