@@ -15,7 +15,8 @@ body {
     display: flex;
     color: rgb(255, 255, 255);
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 10%;
+    width: 80%;
     margin-bottom: 100px;
 }
 aside.texteMiette {
@@ -50,15 +51,28 @@ aside.texteMiette {
     align-items: center;
 }
 .quisuisje {
-    padding-left: 50px;
+    padding-left: 10%;
 }
 .portrait {
     justify-self: center;
-    width: 100%;
+    width: 170%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+h2 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+}
+#formationtitre {
+    padding-left: 10%;
+    margin: auto;
 }
 #barre-formation {
     width: 70%;
@@ -75,9 +89,29 @@ ul {
     margin-left: 0px;
     margin-top: 0px; 
 }
+li {
+    width: 80%;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 
-
+.skills {
+    background-image: url('../media/background/background\ bloc\ note.png');
+    background-repeat: no-repeat;
+    margin-block: 0;
+    background-size: cover;
+    background-position: center;
+    margin: 0px; 
+}
+.software {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px;
+    align-items: flex-start;
+}
 #competence {
     display: flex;
     margin-top: 70px;

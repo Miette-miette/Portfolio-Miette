@@ -217,7 +217,7 @@ img#explo5 {
 
 ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: center;
   margin-left: -81px;
   margin-top: -10px;
