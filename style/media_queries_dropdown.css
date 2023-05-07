@@ -1,0 +1,18 @@
+@media screen and (max-width: 850px){
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    input[type="checkbox"]:checked + div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        z-index: 1;
+        margin-left: 20px;
+    }
+    #logo {
+        margin: 20px;
+        cursor: pointer;
+    }
+}

@@ -1,4 +1,9 @@
 @media screen and (max-width: 850px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px; 
+    }
     .kit {
         background-image: url(../media/background/background_carnet2.png);
         background-repeat: no-repeat;
@@ -11,13 +16,38 @@
     .kit>h2 {
         font-family: 'Patrick Hand', cursive;
         font-size: 50px;
-        /* margin: 1px; */
-        padding-top: 389px;
+        margin-left: 40px;
     }
-    .kit>p {
+     .kit>p {
         margin-top: 30px;
-        width: 824px;
+        width: 235px;
         font-size: 12px;
     }
+
+    input[type="radio"]:checked + label + img {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        width: 280px;
+    }
+    img {
+        width: 36px;
+    }
+    .gallery>div:first-of-type {
+        display: block;
+        position: absolute;
+        width: 263px;
+        height: 135px;
+        background-color: rgb(218, 206, 201);
+        z-index: 0;
+        top: 100px;
+    }
+    .gallery {
+        position: relative;
+        min-height: 338px;
+        margin-top: 34px;
+    }
+
+ 
     
 }

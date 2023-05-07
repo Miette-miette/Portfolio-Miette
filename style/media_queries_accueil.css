@@ -11,6 +11,13 @@ body {
 
 /* ARTICLE UNIVERS */
 
+.explosion {
+    display: grid;
+    grid-template-rows: 20% 20% 20%;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
 .univers {
     display: flex;
     color: rgb(255, 255, 255);
@@ -112,6 +119,12 @@ li {
     flex-direction: column;
     margin: 20px;
     align-items: flex-start;
+}
+.software>img{
+     width: 100%;
+}
+#figma{
+    width: 30%;
 }
 #competence {
     display: flex;
