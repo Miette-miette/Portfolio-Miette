@@ -85,10 +85,10 @@ h1 {
 
 ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     margin-left: 0px;
-    margin-top: 0px; 
+    margin-top: 0px;
 }
 li {
     width: 80%;
@@ -161,7 +161,7 @@ li {
     justify-self: center;
     width: 80%;
     animation: float2 6s ease-in-out infinite;
-    margin-left: 45px;
+    margin-left: 75px;
 }
 #p6 {
     grid-column-start: 1;
@@ -194,7 +194,7 @@ li {
     justify-self: center;
     margin-top: 50px;
     margin-bottom: 140px;
-    width: 50%;
-    margin-left: 0px; 
+    width: 70%;
+    margin-left: 0px;
 }
 }

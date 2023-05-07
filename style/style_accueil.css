@@ -306,11 +306,18 @@ li {
   grid-template-columns: 1fr 1fr;
 }
 
+.passion-conteneur>h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+  color: white;
+  margin-top: 40px;
+}
 
 .passion {
   grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 80px;
 }
 
 #p1 {
