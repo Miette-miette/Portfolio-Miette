@@ -13,6 +13,15 @@ body {
 
   p{
     font-family: 'Source Sans Pro', sans-serif;
+    text-indent: 40px;
+  }
+  ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: -403px;
+    align-items: flex-start;
+}
+  li{
+    list-style-type: none;
   }
   
   h2 {
