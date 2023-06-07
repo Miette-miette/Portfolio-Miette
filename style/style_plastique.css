@@ -25,7 +25,7 @@ footer{
   flex-direction: column;
   align-items: center;
 }
-p {
+.plastique>p {
   font-family: 'Source Sans Pro', sans-serif;
   margin-left: 553px;
 }
