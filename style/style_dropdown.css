@@ -137,6 +137,7 @@ nav {
     text-decoration: none;
     display: block;
     text-align: left;
+    text-shadow: none;
   }
   
   /* Add a grey background color to dropdown links on hover */
@@ -190,6 +191,7 @@ nav {
     text-decoration: none;
     display: block;
     text-align: left;
+    text-shadow: none;
   }
   
   /* Add a grey background color to dropdown links on hover */
