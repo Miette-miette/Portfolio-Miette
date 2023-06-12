@@ -2,6 +2,7 @@
 <html>
     <title>Portfolio de Miette</title>
     <link type="text/css" rel="stylesheet" href="./style/style_accueil.css">
+    <link type="text/css" rel="stylesheet" href="./style/helppopup.css">
     <link type="text/css" rel="stylesheet" href="./style/style_dropdown.css">
     <link type="text/css" rel="stylesheet" href="./style/media_queries_accueil.css">
     <link type="text/css" rel="stylesheet" href="./style/media_queries_dropdown.css">
@@ -36,7 +37,8 @@
 
                     <div class="dropdown2">
                         
-                        <button class="dropbtn2"><img src="./media/iconesnav/webdesign.png" id="logowebdesign">Web Design
+                        <button class="dropbtn2"><img src="./media/iconesnav/webdesign.png" id="logowebdesign">
+                            <span>Web Design</span>
                             <i class="fa-caret-down2"></i>
                         </button>
                             <div class="dropdown2-content">
@@ -45,22 +47,30 @@
                             </div>
                     </div>
 
-                    <a href="./Plastique.html"><img src="./media/iconesnav/video.png" id="logovideo">Vidéo</a>
+                    <a href="./Plastique.html"><img src="./media/iconesnav/video.png" id="logovideo">
+                        <span>Vidéo</span>
+                    </a>
                     
 
                 </div>
             </nav>
+            <div class="help" id="help">
+                <div id="pointe"></div>
+                <p>Découvrez mes projets juste ici!</p>
+                <button onclick="confirme()">J'ai compris!</button>
+            </div>
 
         </header>
 
         <section class="univers">
             <div class="explosion">
 
-                <img src="./media/explosion/color-donuts.png" id="explo1" >
-                <img src="./media/explosion/color-nim.png" id="explo2" >
-                <img src="./media/explosion/color_adess.png" id="explo3">
-                <img src="./media/explosion/color_plastique.png" id="explo4" >
-                <img src="./media/explosion/color_evasion.png" id="explo5">
+                <a href="./etincelle_sucree.html" id="explo1"><img src="./media/explosion/color-donuts.png" width="100%" ></a>
+                <a href="./NIMXWIN.html" id="explo2"><img src="./media/explosion/color-nim.png" width="100%" ></a>
+                <a href="./ADESS.html" id="explo3"><img src="./media/explosion/color_adess.png" width="100%"></a>
+                <a href="./Plastique.html" id="explo4"><img src="./media/explosion/color_plastique.png" width="100%" ></a>
+                <a href="./evasion.html" id="explo5"><img src="./media/explosion/color_evasion.png" width="100%"></a>
+                
             
             </div>
 
@@ -154,10 +164,10 @@
             </article>
         </section>    
 
-        
+        <footer>
+            <p>Site développé par Miette/ 2023</p>
+        </footer>
 
     </body>
+    <script src="./script/help.js"></script>
 </html>
-<footer>
-    <p>Site développé par Miette/ 2023</p>
-</footer>

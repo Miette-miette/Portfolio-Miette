@@ -1,9 +1,14 @@
-#logo{
+#logo {
   margin: 20px;
   cursor: pointer;
+  filter: drop-shadow(#93b7d5 4px 4px 4px);
+  animation: menu 4s ease 0s infinite normal forwards;
 }
-#logo:hover{
-  animation: menu 2s ease 0s infinite normal forwards;
+#logo:hover {
+  animation: none;
+  transform: scale3d(1.2,1.2,1.2);
+  transition-duration: 3s;
+  transition-property: transform;
 }
 
 
@@ -12,29 +17,33 @@
 		transform: scale3d(1, 1, 1);
 	}
 
-	30% {
+	15% {
 		transform: scale3d(1.25, 0.75, 1);
 	}
 
-	40% {
+	20% {
 		transform: scale3d(0.75, 1.25, 1);
 	}
 
-	50% {
+	25% {
 		transform: scale3d(1.15, 0.85, 1);
 	}
 
-	65% {
+	32.5% {
 		transform: scale3d(0.95, 1.05, 1);
 	}
 
-	75% {
+	37.5% {
 		transform: scale3d(1.05, 0.95, 1);
 	}
 
-	100% {
+	50% {
 		transform: scale3d(1, 1, 1);
 	}
+  100% {
+		transform: scale3d(1, 1, 1);
+	}
+  
 }
 
 
@@ -51,16 +60,18 @@
     display:none;
   }
 
-  nav{
+nav {
     display: flex;
     flex-direction: row;
-  }
+    position: fixed;
+    top: 0;
+    align-items: center;
+}
   
   input[type="checkbox"]:checked + div {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-top: 30px;
     z-index: 1;
 }
 
@@ -74,6 +85,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: -1px -1px 0 #93b7d5, 1px -1px 0 #93b7d5, -1px 1px 0 #93b7d5, 1px 1px 0 #93b7d5;
   }
   
   /* The dropdown container */

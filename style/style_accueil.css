@@ -34,9 +34,10 @@ h4{
   font-style: oblique;
 }
 
-.univers{
+.univers {
   display: flex;
   color: rgb(255, 255, 255);
+  margin-top: 90px;
 }
 
 aside.texteMiette {
@@ -118,28 +119,28 @@ h1 {
   width: 100%;
 }
 
-img#explo3 {
+#explo3 {
   grid-column-start: 2;
   grid-row-start: 1;
   width: 100%;
   
 }
 
-img#explo2 {
+#explo2 {
   grid-column-start: 3;
   grid-row-start: 2;
   width: 100%;
   
 }
 
-img#explo4 {
+#explo4 {
   grid-column-start: 1;
   grid-row-start: 3;
   width: 120%;
   
 }
 
-img#explo5 {
+#explo5 {
   grid-column-start: 2;
   grid-row-start: 3;
   width: 140%;
