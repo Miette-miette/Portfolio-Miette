@@ -14,11 +14,13 @@ footer{
 
 p{
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 30px;
 }
 
 h2 {
   font-family: 'Patrick Hand', cursive;
   font-size: xxx-large;
+  margin: 30px;
 }
 
 h3{
@@ -28,12 +30,6 @@ h3{
 
 /* ARTICLE */
 
-.etincelle {
-  background-image: url(../media/background/background-large2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
 
 .presentation {
   display: grid;
@@ -45,6 +41,9 @@ h3{
 
 .textpresentation{
   grid-column-start: 2;
+  background-image: url(../media/background/background-large2.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 figure {
   grid-column-start: 1;
@@ -97,7 +96,7 @@ figure {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 30%;
+  height: 20%;
 }
 @keyframes etincelle {
 	0%,
