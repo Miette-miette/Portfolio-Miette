@@ -110,7 +110,11 @@ nav {
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #3c6db5;
-  }
+    /*background-image: url('../media/background/backgroundkraft2.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;*/
+}
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {

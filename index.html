@@ -4,6 +4,7 @@
     <link type="text/css" rel="stylesheet" href="./style/style_accueil.css">
     <link type="text/css" rel="stylesheet" href="./style/helppopup.css">
     <link type="text/css" rel="stylesheet" href="./style/style_dropdown.css">
+    <link type="text/css" rel="stylesheet" href="./style/style_voirplus.css">
     <link type="text/css" rel="stylesheet" href="./style/media_queries_accueil.css">
     <link type="text/css" rel="stylesheet" href="./style/media_queries_dropdown.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -78,8 +79,11 @@
                 <figure>
                     <img src="./media/logo-miette.png" alt="logo" id="miette">
                 </figure>
-                <h2>La poésie du quotidien</h2> 
-                <h3>WEB-DESIGN / DESIGN GRAPHIQUE / DESIGN DE LA TRANSITION</h3>  
+                <h2>La poésie du quotidien</h2>
+                <div> 
+                    <h3>WEB-DESIGN / DESIGN GRAPHIQUE / DESIGN DE LA TRANSITION</h3>  
+                    <button type="button" id="cparti" onclick="window.location.href= '#presentation'" >Entrez dans mon univers!</button>
+                </div>
             </aside>
 
         </section>
@@ -94,7 +98,7 @@
                     <h1>Doriane Le Guyader</h1>
                     <p>Passionnée par les<strong> Arts visuels et le Webdesign</strong>, j'entame une<strong> reconversion professionnelle</strong> en intégrant 
                     la troisième année de Bachelor WebDesign en alternance à My Digital School Rennes, pour septembre 2023.</p>
-                    <h4>//Créative //Curieuse //Enthousiaste</h4>  
+                    <h4>Créative Curieuse Enthousiaste</h4>  
                 </div>
             <div class="portrait">
                     <img src="./media/portrait.png" width="50%" alt="portrait">
@@ -162,10 +166,49 @@
                 </div>
 
             </article>
-        </section>    
+        </section> 
+        
+        <section class="voirplusconteneur">
+            <h2>Découvrez mon univers:</h2>
+            <article class="voirplus">
+
+                <div class="voir1" >
+                    <div>
+                        <img src="./media/miniature/miniaturenim.png" id="miniature1" width="400px">
+                    </div>
+                    
+                    <div  class="overlay1">
+                        <a href="./NIMXWIN.html" id="lien1">
+                        <h4>NIM X WIN</h4>
+                        <p>Jeu de Nim en ligne!</p>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="voir2" >
+                    <div>
+                        <img src="./media/miniature/miniatureadess.png" id="miniature2" width="400px">
+                    </div>
+                    
+                    <div  class="overlay2">
+                        <a href="./ADESS.html" id="lien2">
+                        <h4>Pause à l'ADESS</h4>
+                        <p>Réamenagement des locaux sociaux de l'ADESS Brest dans une logique d'Upcycling et de respect des usagers.</p>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
 
         <footer>
             <p>Site développé par Miette/ 2023</p>
+            <div class="logocontact">
+                <a href="./media/CV Doriane Le Guyader.pdf" id="cv"></a>
+                <a href="https://www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb/" id="linkedin"></a>
+            </div>
+
+
         </footer>
 
     </body>

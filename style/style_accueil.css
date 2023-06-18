@@ -27,7 +27,7 @@ h3{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
 }
-h4{
+.quisuisje>h4{
   font-family: 'Source Sans Pro', sans-serif;
   color: #3c6db5;
   font-size: xx-large;
@@ -41,11 +41,27 @@ h4{
 }
 
 aside.texteMiette {
+  margin: 140px; 
+}
+.texteMiette>div {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  margin: 140px;
-  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#cparti {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Patrick Hand', cursive;
+  color: #3c6db5;
+  font-size: 20px;
+  border-color: #93b7d5;
+}
+#cparti:hover{
+  cursor: pointer;
+  color: antiquewhite;
+  background-color: #3c6db5;
 }
 figure {
   margin: 0px;
@@ -103,6 +119,8 @@ h1 {
 		transform: translateY(0);
 	}
 }
+
+
 
 /* EXPLOSION IMAGE*/
 
@@ -197,6 +215,7 @@ h1 {
   background-position: center;
   min-height: 1115px;
   color: rgb(4, 0, 36);
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 
 .resume{
@@ -288,6 +307,7 @@ li {
   background-size: contain;
   background-position: center;
   margin: 60px;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 
 .software {
@@ -328,6 +348,7 @@ li {
   width: 50%;
   margin-top: 66px;
   animation: float1 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 
 #p2{
@@ -336,6 +357,7 @@ li {
   justify-self: center;
   width: 50%;
   animation: float2 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p3 {
   grid-column-start: 3;
@@ -343,12 +365,14 @@ li {
   width: 50%;
   margin-top: 90px;
   animation: float1 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p4 {
   grid-column-start: 1;
   grid-row-start: 2;
   width: 50%;
   animation: float2 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p5 {
   grid-column-start: 3;
@@ -356,6 +380,7 @@ li {
   justify-self: center;
   width: 50%;
   animation: float2 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p6 {
   grid-column-start: 1;
@@ -364,6 +389,7 @@ li {
   width: 50%;
   margin-top: -60px;
   animation: float1 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p7 {
   grid-column-start: 2;
@@ -372,6 +398,7 @@ li {
   width: 50%;
   margin-top: 50px;
   animation: float2 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p8 {
   grid-column-start: 3;
@@ -379,6 +406,7 @@ li {
   width: 50%;
   margin-left: 82px;
   animation: float1 6s ease-in-out infinite;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 #p9 {
   grid-column: 1/ span3;
@@ -388,6 +416,8 @@ li {
   margin-bottom: 140px;
   width: 50%;
   margin-left: -90px;
+  
+ 
 }
 
 @keyframes float1 {
@@ -411,5 +441,15 @@ li {
 	100% {
 		transform: translatey(-20px);
 	}
+}
+/* FOOTER */
+
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
 }
 
