@@ -54,6 +54,7 @@
   overflow: hidden;
   font-family: 'Patrick Hand';
   font-size:xx-large;
+  
   }
   
   #nav{
@@ -66,13 +67,14 @@ nav {
     position: fixed;
     top: 0;
     align-items: center;
+    z-index: 2;
 }
   
   input[type="checkbox"]:checked + div {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    z-index: 1;
+    z-index: 2;
 }
 
 
