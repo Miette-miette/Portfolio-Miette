@@ -62,7 +62,6 @@ aside.texteMiette {
 }
 .portrait {
     justify-self: center;
-    width: 170%;
     display: flex;
     flex-direction: column;
     align-items: center;
