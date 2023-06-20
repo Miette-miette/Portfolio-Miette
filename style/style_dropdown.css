@@ -105,17 +105,25 @@ nav {
     color: white;
     padding: 14px 16px;
     background-color: inherit;
+    text-shadow: -1px -1px 0 #93b7d5, 1px -1px 0 #93b7d5, -1px 1px 0 #93b7d5, 1px 1px 0 #93b7d5;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #3c6db5;
-    /*background-image: url('../media/background/backgroundkraft2.png');
+  /* BACKGROUND HOVER 1 */
+  .navbar a:hover,.dropdown:hover .dropbtn {
+   
+    background-image: url('../media/background/background\ menu_0001.png');
     background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dropdown-content>a:hover {
+  background-image: url('../media/background/background_0004.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
   
   /* Dropdown content (hidden by default) */
@@ -163,7 +171,7 @@ nav {
     overflow: hidden;
   }
   
-  /* Dropdown button */
+  /* Dropdown button WEBDESIGN 2*/
   .dropdown2 .dropbtn2 {
     font-size: 20px;
     border: none;
@@ -171,13 +179,25 @@ nav {
     color: white;
     padding: 14px 16px;
     background-color: inherit;
+    text-shadow: -1px -1px 0 #93b7d5, 1px -1px 0 #93b7d5, -1px 1px 0 #93b7d5, 1px 1px 0 #93b7d5;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown2:hover .dropbtn2 {
-    background-color: #3c6db5;
+  /* BACKGROUND HOVER 2 */
+  .dropdown2:hover .dropbtn2 {
+
+    background-image: url('../media/background/background\ menu_0001.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+  }
+  .dropdown2-content>a:hover {
+    background-image: url('../media/background/background_0004.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   
   /* Dropdown content (hidden by default) */
@@ -219,19 +239,27 @@ nav {
     padding: 8px;
 }
 
+/* MINI LOGOS */
+
 #logoquisuisje {
   width: 16px;
   margin-right: 10px;
+  filter:drop-shadow(#93b7d5 1px 1px 1px);
 }
 #logodesign{
   width: 25px;
   margin-right: 10px;
+  filter:drop-shadow(#93b7d5 1px 1px 1px);
 }
+
 #logowebdesign{
   width: 25px;
   margin-right: 10px;
+  filter:drop-shadow(#93b7d5 1px 1px 1px);
 }
+
 #logovideo{
   width: 19px;
   margin-right: 10px;
+  filter:drop-shadow(#93b7d5 1px 1px 1px);
 }
