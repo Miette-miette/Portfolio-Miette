@@ -111,16 +111,17 @@ nav {
   }
   
   /* BACKGROUND HOVER 1 */
-  .navbar a:hover,.dropdown:hover .dropbtn {
-   
-    background-image: url('../media/background/background\ menu_0001.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.dropdown:hover {
+  background-image: url('../media/background/backgrounddropdown1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 172px;
+  width: 265px;
 }
 
 .dropdown-content>a:hover {
-  background-image: url('../media/background/background_0004.png');
+  background-image: url('../media/background/backgroundnav.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -129,34 +130,25 @@ nav {
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
-    background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     position: absolute;
     z-index: 2;
   }
   .dropdown2-content {
     display: none;
-    background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 2;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
-    color: black;
+    color: rgb(240, 240, 240);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
     text-shadow: none;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #ddd;
   }
   
   /* Show the dropdown menu on hover */
@@ -185,16 +177,16 @@ nav {
   }
   
   /* BACKGROUND HOVER 2 */
-  .dropdown2:hover .dropbtn2 {
-
-    background-image: url('../media/background/background\ menu_0001.png');
+  .dropdown2:hover {
+    background-image: url('../media/background/background\ menudropdown2.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-  
-  }
+    height: 180px;
+    width: 210px;
+}
   .dropdown2-content>a:hover {
-    background-image: url('../media/background/background_0004.png');
+    background-image: url('../media/background/backgroundnav.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -204,7 +196,6 @@ nav {
   .dropdown2-content {
     display: none;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     position: absolute;
     z-index: 1;
   }
@@ -212,21 +203,12 @@ nav {
   /* Links inside the dropdown */
   .dropdown2-content a {
     float: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
     text-shadow: none;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown2-content a:hover {
-    background-color: #ddd;
-  }
-   /* Add a grey background color to dropdown links on hover */
-   .dropdown-content a:hover {
-    background-color: #ddd;
   }
   
   /* Show the dropdown menu on hover */
@@ -237,6 +219,21 @@ nav {
   a {
     display: block;
     padding: 8px;
+}
+
+#quisuisjebtn:hover{
+  background-image: url(../media/background/menubackgroundquisuisje.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#videobtn:hover{
+  background-image: url(../media/background/background\ menu_0001.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 /* MINI LOGOS */

@@ -21,11 +21,14 @@ p{
 h2 {
   font-family: 'Patrick Hand', cursive;
   font-size: xxx-large;
+  margin-top: 10px;
 }
 
-h3{
+.texteMiette>div>h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
+  margin-top: 110px;
+  word-spacing: 26px;
 }
 .quisuisje>h4{
   font-family: 'Source Sans Pro', sans-serif;
@@ -51,17 +54,24 @@ aside.texteMiette {
 }
 
 #cparti {
-  padding: 10px 20px;
-  border-radius: 10px;
+  background-image: url(../media/bouton/btn1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px 40px;
+  border-radius: 14px;
   font-family: 'Patrick Hand', cursive;
-  color: #3c6db5;
-  font-size: 20px;
-  border-color: #93b7d5;
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+  margin-top: 40px;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
-#cparti:hover{
+
+#cparti:hover {
   cursor: pointer;
   color: antiquewhite;
-  background-color: #3c6db5;
+  translate: 4px 4px;
 }
 figure {
   margin: 0px;
