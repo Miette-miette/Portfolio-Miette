@@ -88,6 +88,19 @@
         <section id="presentation">
 
             <article class="resume">
+                <div class="portrait">
+                    <div class="animation_miette">
+                        <img src="./media/mietteanim/tete.png" id="tete">
+                        <img src="./media/mietteanim/bras.png" id="bras">
+                        <img src="./media/mietteanim/ordi.png" id="ordi">
+                    </div>
+                    
+                    <div class="logocontact">
+                        <a href="./media/CV Doriane Le Guyader.pdf" id="cv"><img src="./media/iconesnav/logo-cv.png" width="60px"></a>
+                        <a href="https://www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb/" id="linkedin"><img src="./media/iconesnav/logo-linkedin.png" width="60px"></a>
+                    </div>
+                </div>
+
                 <div class="quisuisje">
                  
                     <h2>Qui suis-je?</h2>
@@ -95,40 +108,61 @@
                     <h1>Doriane Le Guyader</h1>
                     <p>Passionnée par les<strong> Arts visuels et le Webdesign</strong>, j'entame une<strong> reconversion professionnelle</strong> en intégrant 
                     la troisième année de Bachelor WebDesign en alternance à My Digital School Rennes, pour septembre 2023.</p>
-                    <h4>Créative Curieuse Enthousiaste</h4>  
-                </div>
-            <div class="portrait">
-                    <img src="./media/portrait.png" width="50%" alt="portrait">
-                <div class="logocontact">
-                    <a href="./media/CV Doriane Le Guyader.pdf" id="cv"></a>
-                    <a href="https://www.linkedin.com/in/doriane-le-guyader-3a6b2a1bb/" id="linkedin"></a>
-                </div>
-            </div>
-            </article>
 
-            <article class="formation">
-                <h2 id="formationtitre">Formations</h2>
+                     <h2>Formations</h2>
 
-                <img src="./media/barre-formation.png" id="barre-formation">
+                    <div class="onglet_formation">
 
-                <ul>
-                
-                    <li>2014-<strong>BAC STD2A</strong> /Lycée Ste Genevieve RENNES
-                    <p>Acquisition d'une culture artistique variée et un fort intérêt pour la création en général.</p>
-                    </li>
-                    <li>2015-<strong> Classe préparatoire aux écoles d'Arts</strong> /Ecole Emile Daubé SAINT-BRIEUC
-                    <p>Exploration d'une multitude de techniques et support pour s'exprimer aux travers des Arts visuels 
-                        (peinture, sculpture, performance, vidéos)</p>
-                    </li>
-                    <li>2018-<strong>DNAP option Design</strong> /EESAB BREST
-                    <p>Design d'espace et d'objet avec une approche artistique. Apprentissage de la suite Adobe (axé d'avantage vers le print)</p>
-                    </li>
-                    <li>2020-<strong>DNSEP mention Design de la Transition</strong> /EESAB BREST
-                    <p>Sensibilisation autour des questions de transition écologique, sociale, économique, au travers des métiers du design.
-                        Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.  </p>
-                    </li>
+                        <div class="onglet_btn">
+                            <button class="onglet onglet_actif">
+                                DNSEP-2020
+                            </button>
+                            <button class="onglet">
+                                DNAP-2018
+                            </button>
+                            <button class="onglet">
+                                PREPA-2015
+                            </button>
+                            <button class="onglet">
+                                BAC STD2A-2014
+                            </button>    
+                        </div>
+
+                        <div class="onglet_contenu onglet_actif_contenu">
+                            <div id="dnsep">
+                                <p>2020-<strong>DNSEP mention Design de la Transition</strong> /EESAB BREST</p>
+                                <p>Sensibilisation autour des questions de transition écologique, sociale, économique, au travers des métiers du design.
+                                Développement de ma propre démarche de projet, axée sur la rêverie et l'approche sensible de concepts triviaux.  </p>
+                            </div>
+                        </div>
+
                     
-                </ul>
+                        <div class="onglet_contenu">
+                            <div id="dnap">
+                                <p>2018-<strong>DNAP option Design</strong> /EESAB BREST</p>
+                                <p>Design d'espace et d'objet avec une approche artistique. Apprentissage de la suite Adobe (axé d'avantage vers le print)</p>
+                            </div>
+                        </div>
+
+                        <div class="onglet_contenu">
+                            <div id="prepa">
+                                <p>2015-<strong> Classe préparatoire aux écoles d'Arts</strong> /Ecole Emile Daubé SAINT-BRIEUC</p>
+                                <p>Exploration d'une multitude de techniques et support pour s'exprimer aux travers des Arts visuels 
+                                (peinture, sculpture, performance, vidéos)</p>
+                            </div>
+                        </div>
+
+                        <div class="onglet_contenu">
+                            <div id="bac">
+                                <p>2014-<strong>BAC STD2A</strong> /Lycée Ste Genevieve RENNES</p>
+                                <p>Acquisition d'une culture artistique variée et un fort intérêt pour la création en général.</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                
+                </div>
             </article>
         </section> 
 
@@ -210,4 +244,5 @@
 
     </body>
     <script src="./script/help.js"></script>
+    <script src="./script/formation_onglet.js"></script>
 </html>
