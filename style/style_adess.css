@@ -6,9 +6,6 @@ body {
     background-color: #93b7d5;
     margin: 0;
   }
-  footer{
-    color: rgb(255, 255, 255);
-  }
 
 
 /*SECTION ADESS DEBUT*/
@@ -101,3 +98,51 @@ figure{
 }
 
 /*SECTION ADESS FIN*/
+
+/* FOOTER */
+footer {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+  
+  .logocontact_footer{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #cv{
+    background-image: url(../media/background/bouton\ rond.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 27px;
+    margin: 27px;
+    filter: drop-shadow(#536485 4px 4px 4px);
+  
+  
+  }
+  #cv:hover{
+    cursor: pointer;
+    color: antiquewhite;
+    translate: 4px 4px; 
+  }
+  
+  #linkedin{
+    background-image: url(../media/background/bouton\ rond.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 27px;
+    margin: 27px;
+    filter: drop-shadow(#536485 4px 4px 4px);
+  
+  }
+  #linkedin:hover{
+    cursor: pointer;
+    color: antiquewhite;
+    translate: 4px 4px;
+  }

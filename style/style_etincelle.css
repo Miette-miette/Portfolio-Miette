@@ -7,11 +7,6 @@ body {
   margin: 0;
 }
 
-
-footer{
-  color: rgb(255, 255, 255);
-}
-
 p {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 14px 32px;
@@ -175,4 +170,53 @@ figure {
   grid-column-start: 2;
   width: 60%;
   justify-self: center;
+}
+
+/* FOOTER */
+
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.logocontact_footer{
+  display: flex;
+  flex-direction: row;
+}
+
+#cv{
+  background-image: url(../media/background/bouton\ rond.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 27px;
+  margin: 27px;
+  filter: drop-shadow(#536485 4px 4px 4px);
+
+
+}
+#cv:hover{
+  cursor: pointer;
+  color: antiquewhite;
+  translate: 4px 4px; 
+}
+
+#linkedin{
+  background-image: url(../media/background/bouton\ rond.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 27px;
+  margin: 27px;
+  filter: drop-shadow(#536485 4px 4px 4px);
+
+}
+#linkedin:hover{
+  cursor: pointer;
+  color: antiquewhite;
+  translate: 4px 4px;
 }

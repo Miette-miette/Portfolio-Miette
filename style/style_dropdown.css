@@ -70,11 +70,11 @@ nav {
     z-index: 2;
 }
   
-  input[type="checkbox"]:checked + div {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    z-index: 2;
+input[type="checkbox"]:checked + div {
+  display: block;
+  z-index: 2;
+  width: 800px;
+  height: 100px;
 }
 
 
@@ -94,7 +94,11 @@ nav {
   .dropdown {
     float: left;
     overflow: hidden;
-  }
+    position: absolute;
+    top: 28px;
+    margin-left: 155px;
+    width: 280px;
+}
   
   /* Dropdown button */
   .dropdown .dropbtn {
@@ -157,11 +161,17 @@ nav {
   }
 
 
-  /* The dropdown container */
-  .dropdown2 {
-    float: left;
-    overflow: hidden;
-  }
+/* The dropdown container 2 */
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  top: 34px;
+  margin-left: 420px;
+  width: 170px;
+  z-index: 2;
+}
   
   /* Dropdown button WEBDESIGN 2*/
   .dropdown2 .dropbtn2 {
@@ -221,11 +231,25 @@ nav {
     padding: 8px;
 }
 
+#quisuisjebtn {
+  margin-left: 6px;
+  margin-top: 16px;
+  position: absolute;
+  width: 120px;
+}
+
 #quisuisjebtn:hover{
   background-image: url(../media/background/menubackgroundquisuisje.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#videobtn {
+  margin-left: 560px;
+  margin-top: 30px;
+  position: absolute;
+  width: 100px;
 }
 
 #videobtn:hover{

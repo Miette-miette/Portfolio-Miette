@@ -11,6 +11,11 @@ footer{
   color: rgb(255, 255, 255);
 }
 
+.logocontact_footer{
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* Texte */
 
@@ -253,8 +258,8 @@ h1 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  padding: 40px;
-  margin: 14px;
+  padding: 27px;
+  margin: 27px;
   filter: drop-shadow(#536485 4px 4px 4px);
 
 
@@ -270,8 +275,8 @@ h1 {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  padding: 40px;
-  margin: 14px;
+  padding: 27px;
+  margin: 27px;
   filter: drop-shadow(#536485 4px 4px 4px);
 
 }
@@ -306,7 +311,7 @@ h1 {
   height: 600px;
   margin-top: 17px;
   filter: drop-shadow(#536485 4px 4px 4px);
-  animation: tete 2s ease 5s normal forwards;
+  animation: tete 5s ease 5s infinite normal forwards;
 }
 
 #bras{
@@ -327,13 +332,14 @@ h1 {
 
 @keyframes tete {
 	0%,
+  50%,
   100%{
 		transform: rotate(0deg);
 		transform-origin: bottom;
 	}
 
-	50% {
-		transform: rotate(1deg);
+	20% {
+		transform: rotate(0.5deg);
 	}
 }
 

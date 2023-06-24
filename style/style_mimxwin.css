@@ -7,10 +7,6 @@ body {
   margin: 0;
 }
 
-footer{
-  color: rgb(255, 255, 255);
-}
-
 p{
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -27,43 +23,120 @@ h1{
 }
 
 .NIMWIN {
-  background-image: url(../media/background/background_petitcarnetgriff.png);
+  display: flex;
+  flex-direction: row;
+  margin-left: 22%;
+  margin-top: 120px;
+}
+
+.presentation_nim {
+  background-image: url(../media/background/carnet1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  height: 800px;
+  width: 600px;
+  height: 810px;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 
-article {
+.presentation_nim>h2 {
+  padding: 10px 80px 10px 120px;
+  margin-top: 60px;
+}
+
+.presentation_nim>p{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px 80px 10px 120px;
+}
+
+.visuel_nim {
+  background-image: url(../media/background/carnet2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 600px;
+  height: 810px;
+  margin-left: -37px;
   display: flex;
   flex-direction: column;
-  align-content: flex-end;
-  grid-column-start: 2;
-  margin-left: 170px;
-  margin-top: 40px;
+  align-items: center;
+  filter: drop-shadow(#536485 4px 4px 4px);
 }
 
-.gif{
-  width: 40%;
-  margin: 130px;
+.gif {
+  width: 50%;
+  margin-top: 102px;
+  margin-bottom: 40px;
 }
 
 #voir_le_site {
-  background-image: url(../media/background/Boutonkraft.png);
+  background-image: url(../media/bouton/btn1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* padding: 30px 39px; */
+  border-radius: 19px;
+  font-family: 'Patrick Hand', cursive;
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+  border-color: transparent;
+  background-color: transparent;
+  width: 220px;
+  height: 70px;
+}
+
+#voir_le_site:hover {
+  cursor: pointer;
+  color: antiquewhite;
+  translate: 4px 4px;
+}
+
+/* FOOTER */
+
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.logocontact_footer{
+  display: flex;
+  flex-direction: row;
+}
+
+#cv{
+  background-image: url(../media/background/bouton\ rond.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 30%;
-  background-color: transparent;
-  border-color: transparent;
-  width: 40%;
-  cursor: pointer;
-  margin-left: 198px;
-  margin-top: -120px;
+  padding: 27px;
+  margin: 27px;
+  filter: drop-shadow(#536485 4px 4px 4px);
+
+
 }
-#voir_le_site:hover {
-  transform: scale3d(1.1,1.1,1.1);
-  transition-duration: 1s; 
+#cv:hover{
+  cursor: pointer;
+  color: antiquewhite;
+  translate: 4px 4px; 
+}
+
+#linkedin{
+  background-image: url(../media/background/bouton\ rond.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 27px;
+  margin: 27px;
+  filter: drop-shadow(#536485 4px 4px 4px);
+
+}
+#linkedin:hover{
+  cursor: pointer;
+  color: antiquewhite;
+  translate: 4px 4px;
 }
