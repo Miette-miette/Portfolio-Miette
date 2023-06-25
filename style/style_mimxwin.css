@@ -9,6 +9,8 @@ body {
 
 p{
   font-family: 'Source Sans Pro', sans-serif;
+  text-indent: 40px;
+  text-align: justify;
 }
 
 h2 {
@@ -47,6 +49,10 @@ h1{
 .presentation_nim>p{
   font-family: 'Source Sans Pro', sans-serif;
   padding: 10px 80px 10px 120px;
+}
+#recherchetxt {
+  margin-top: 244px;
+  margin-left: 200px;
 }
 
 .visuel_nim {
