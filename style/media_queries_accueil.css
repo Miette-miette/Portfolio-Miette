@@ -50,23 +50,17 @@ aside.texteMiette {
     display: flex;
     flex-direction: column;
 }
-.resume {
-    display: flex;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 100px;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.quisuisje {
-    padding-left: 10%;
-}
-.portrait {
-    justify-self: center;
+.resume{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
+
+
+.animation_miette{
+    padding-left: 0;
+}
+
+
 h2 {
     font-family: 'Patrick Hand', cursive;
     font-size: 30px;
@@ -80,29 +74,8 @@ h1 {
     padding-left: 10%;
     margin: auto;
 }
-#barre-formation {
-    margin-left: -250px;
-    padding-top: -27px;
-    rotate: 90deg;
-    z-index: 2;
-    position: relative;
-    width: 200%;
 
-}
 
-ul {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-li {
-    width: 80%;
-    margin: 0px;
-    font-size: 12px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
 
 .skills {
@@ -210,4 +183,8 @@ li {
     width: 70%;
     margin-left: 0px;
 }
+}
+
+footer{
+    flex-direction: column;
 }
