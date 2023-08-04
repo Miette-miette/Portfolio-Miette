@@ -55,6 +55,8 @@ aside.texteMiette {
     flex-direction: column;
 }
 
+/* ANIMATION PERSONNAGE */
+
 
 .animation_miette{
     padding-left: 0;
@@ -70,13 +72,15 @@ h1 {
     font-family: 'Patrick Hand', cursive;
     margin: 0;
 }
-#formationtitre {
-    padding-left: 10%;
-    margin: auto;
+
+/* ONGLET FORMATION */
+
+.onglet_formation {
+    width: 70vw;
 }
 
 
-
+/* COMPETENCES */
 
 .skills {
     background-image: url('../media/background/background\ bloc\ note.png');
@@ -106,6 +110,9 @@ h1 {
 
     padding: 10%;
 }
+
+/*PASSIONS */
+
 .passion-conteneur {
 
     margin-top: 0px; 
